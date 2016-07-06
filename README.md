@@ -8,4 +8,4 @@ This repository aims to document the usage of the Tracktus API.
 
 ### Requesting credentials
 
-To be granted access to the API, you should contact your comercial.
+To be granted access to the API, you should contact your commercial for further clarifications.
