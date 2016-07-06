@@ -1,7 +1,7 @@
 
 ##### Request URL
 
-`https://*.localize.cc/api/`
+`http://*.localize.cc/api/`
 
 ##### Authentication
 
