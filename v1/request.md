@@ -1,3 +1,6 @@
+### API Request
+
+The version 1 of the API is based on HTTP Rest. The following notes give you the instructions on how to properly build the request to any method of the API intended to be used.
 
 ##### Request URL
 
