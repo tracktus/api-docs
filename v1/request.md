@@ -16,6 +16,8 @@ Every API request must have the headers above set.
 
 ##### Errors
 
+The table below ilustrates the possible errors that can occur with an API request.
+
 Request Status | HTTP Status | Description
 -------------- | ----------- | ------------
 `OK`             | 200         | The request had a successful response
