@@ -26,3 +26,11 @@ Request Status | HTTP Status | Description
 `NOT_FOUND_ERROR` | 404 | The request is invalid
 `QUERY_LIMIT_ERROR` | 409 | The client reached the query limit
 `SERVER_FAULT_ERROR` | 500 | The server triggered an internal error for the request
+
+
+###### Result Example
+ 
+    {
+      "stat": "REQUEST_ERROR",
+      "tip": "The `name` parameter cannot be undefined"
+    }
