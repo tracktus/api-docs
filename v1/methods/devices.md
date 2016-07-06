@@ -81,6 +81,8 @@
   `productIMEI` | `string` | X
   `productType` | `string` | X
   `metas` | `object` | X
+  
+> The `metas` parameter is always merged to the one stored, to delete a meta from the store, type the meta key with `null` value.
 
 ###### result
 
