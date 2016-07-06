@@ -12,7 +12,7 @@ HTTP Header | Description
 X-Client-Id | Your REST Client ID
 X-Client-Secret | Your REST Client Secret
 
-Every API request must have the headers above set.
+> **Every API request must have the headers above set.**
 
 ##### Errors
 
