@@ -37,3 +37,5 @@ Request Status | HTTP Status | Description
       "stat": "REQUEST_ERROR",
       "tip": "The `name` parameter cannot be undefined"
     }
+
+> For now, only the `REQUEST_ERROR` type have the `tip` parameter set.
