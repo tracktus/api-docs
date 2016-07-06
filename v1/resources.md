@@ -35,6 +35,30 @@
         }
       }
     }
+
+##### GET `/resources/:id/statuses`
+
+    {
+      "stat": "OK",
+      "statuses": [
+        {
+          "device": "118c735f-49e6-4494-9907-16151e150dc4",
+          "timestamp": "2016-05-11T21:07:27Z",
+          "latitude": -29.850494,
+          "longitude": -51.150692,
+          "course": 95,
+          "speed": 0,
+          "ignition": false,
+          "blocked": false,
+          "panic": false,
+          "mileage": 128351,
+          "hourmeter": 14182.5,
+          "gps": {
+            "valid": true,
+            "satellites": 10
+          }
+        }
+    }
     
 ##### POST `/resources`
 
