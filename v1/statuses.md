@@ -8,6 +8,7 @@
             "id": "6a52e022-b05a-45c3-a7a5-ce399a269cb5",
             "name": "VK-0182 (Corolla)"
           },
+          "device": "118c735f-49e6-4494-9907-16151e150dc4",
           "timestamp": "2016-05-11T21:07:27Z",
           "latitude": -29.850494,
           "longitude": -51.150692,
@@ -27,7 +28,7 @@
     }
     
     
-##### GET `/resources/:id`
+##### GET `/statuses/:id`
 
     {
       "stat": "OK",
@@ -36,6 +37,7 @@
           "id": "6a52e022-b05a-45c3-a7a5-ce399a269cb5",
           "name": "VK-0182 (Corolla)"
         },
+        "device": "118c735f-49e6-4494-9907-16151e150dc4",
         "timestamp": "2016-05-11T21:07:27Z",
         "latitude": -29.850494,
         "longitude": -51.150692,
