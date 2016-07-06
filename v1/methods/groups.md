@@ -74,4 +74,4 @@
     
 ##### DEL `/groups/:id`
 
-This request will delete the resource
+This request will delete the group
