@@ -1,3 +1,5 @@
+## ProductType
+
 Flag           | Manufacturer | Description
 ----------------------- | ------------ | --------------
 QUANTA_TETROS_BABY_V2  | Quanta | Tetros Baby V2
