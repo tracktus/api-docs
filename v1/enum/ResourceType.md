@@ -3,7 +3,6 @@
 Flag           | Description
 -------------- | --------------
 `PACKAGE` | Package
-`MACHINE` | Machine
 `DEVICE` | Device
 `DEVICE_NOTEBOOK` | Notebook
 `DEVICE_CELLPHONE` | Cellphone
