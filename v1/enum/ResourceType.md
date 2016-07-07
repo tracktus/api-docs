@@ -13,7 +13,7 @@ Flag           | Description
 `VEHICLE_CAR_VAN` | Van
 `VEHICLE_CAR_PICKUP` | Pick-Up
 `VEHICLE_MOTORCYCLE` | Motorcycle
-`VEHICLE_BICYCLE` | Bycicle
+`VEHICLE_BICYCLE` | Bicycle
 `VEHICLE_BOAT` | Boat
 `VEHICLE_BOAT_DREDGER` | Dredger Boat
 `VEHICLE_JETSKI` | Dredger Boat
