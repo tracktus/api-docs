@@ -7,6 +7,7 @@
           "id": "6a52e022-b05a-45c3-a7a5-ce399a269cb5",
           "type": "VEHICLE_BUS",
           "name": "IVK-0182",
+          "group": null,
           "devices": [
             "118c735f-49e6-4494-9907-16151e150dc4"
           ],
@@ -55,6 +56,7 @@
   --------- | ---- | ---------
   `name` | `string` | ✓
   `type` | `string<resourceType>` | ✓
+  `group` | `uuid` | X
   `metas` | `object` | X
 
 ###### result
@@ -65,6 +67,7 @@
         "id": "6a52e022-b05a-45c3-a7a5-ce399a269cb5",
         "type": "VEHICLE_BUS",
         "name": "IVK-0182",
+        "group": null,
         "devices": [
           "118c735f-49e6-4494-9907-16151e150dc4"
         ],
@@ -86,6 +89,7 @@
   --------- | ---- | ---------
   `name` | `string` | X
   `metas` | `object` | X
+  `group` | `uuid` | X
 
 > The `metas` parameter is always merged to the one stored, to delete a meta from the store, type the meta key with `null` value.
 
@@ -97,6 +101,7 @@
         "id": "6a52e022-b05a-45c3-a7a5-ce399a269cb5",
         "type": "VEHICLE_BUS",
         "name": "IVK-0182 (Corolla)",
+        "group": null,
         "devices": [
           "118c735f-49e6-4494-9907-16151e150dc4"
         ],
@@ -109,3 +114,9 @@
 ##### DEL `/resources/:id`
 
 This request will delete the resource
+
+###### result
+
+    {
+      "stat": "OK"
+    }
