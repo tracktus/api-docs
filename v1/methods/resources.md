@@ -54,7 +54,7 @@
   parameter | type | required
   --------- | ---- | ---------
   `name` | `string` | ✓
-  `devices` | `array<string>` | ✓
+  `type` | `string<resourceType>` | ✓
   `metas` | `object` | X
 
 ###### result
@@ -85,7 +85,6 @@
   parameter | type | required
   --------- | ---- | ---------
   `name` | `string` | X
-  `devices` | `array<string>` | X
   `metas` | `object` | X
 
 > The `metas` parameter is always merged to the one stored, to delete a meta from the store, type the meta key with `null` value.
