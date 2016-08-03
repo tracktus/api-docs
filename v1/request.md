@@ -24,6 +24,7 @@ The table below ilustrates the possible errors that can occur with an API reques
 Request Status | HTTP Status | Description
 -------------- | ----------- | ------------
 `OK`             | 200         | The request had a successful response
+`SYNTAX_ERROR` | 400 | The request triggered for syntax error
 `REQUEST_ERROR` | 400 | The request triggered an user level error
 `NOT_AUTHORIZED_ERROR` | 403 | The request is unauthorized
 `NOT_FOUND_ERROR` | 404 | The request is invalid
