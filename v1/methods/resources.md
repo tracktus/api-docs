@@ -55,7 +55,7 @@
   parameter | type | required
   --------- | ---- | ---------
   `name` | `string` | ✓
-  `type` | `string<resourceType>` | ✓
+  `type` | `string<ResourceType>` | ✓
   `group` | `uuid` | X
   `metas` | `object` | X
 
@@ -88,6 +88,7 @@
   parameter | type | required
   --------- | ---- | ---------
   `name` | `string` | X
+  `type` | `string<ResourceType>` | X
   `metas` | `object` | X
   `group` | `uuid` | X
 
