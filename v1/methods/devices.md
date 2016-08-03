@@ -8,6 +8,7 @@
           "productESN": "8875643",
           "productIMEI": "322099011761481",
           "productType": "MAXTRACK_MXT140",
+          "resource": null,
           "metas": {
             "antenna": "external"
           }
@@ -26,6 +27,7 @@
         "productESN": "8875643",
         "productIMEI": "322099011761481",
         "productType": "MAXTRACK_MXT140",
+        "resource": null,
         "metas": {
           "antenna": "external"
         }
@@ -41,6 +43,7 @@
       "productESN": "8875643",
       "productIMEI": "322099011761481",
       "productType": "MAXTRACK_MXT140",
+      "resource": null,
       "metas": {
         "Antenna": "External"
       }
@@ -50,7 +53,8 @@
   --------- | ---- | ---------
   `productESN` | `string` | X
   `productIMEI` | `string` | X
-  `productType` | `string` | ✓
+  `productType` | `string<ProductType>` | ✓
+  `resource` | `uuid` | X
   `metas` | `object` | X
 
   > It's required to have specified at least one of the parameters `ProductESN` or `ProductIMEI`
@@ -62,6 +66,7 @@
       "productESN": "8875643",
       "productIMEI": "322099011761481",
       "productType": "MAXTRACK_MXT140",
+      "resource": null,
       "metas": {
         "Antenna": "External"
       }
@@ -79,7 +84,8 @@
   --------- | ---- | ---------
   `productESN` | `string` | X
   `productIMEI` | `string` | X
-  `productType` | `string` | X
+  `productType` | `string<ProductType>` | X
+  `resource` | `uuid` | X
   `metas` | `object` | X
   
 > The `metas` parameter is always merged to the one stored, to delete a meta from the store, type the meta key with `null` value.
@@ -93,6 +99,7 @@
         "productESN": "8875643",
         "productIMEI": "322099011761482",
         "productType": "MAXTRACK_MXT140",
+        "resource": null,
         "metas": {
           "Antenna": "External"
         }
@@ -101,4 +108,10 @@
     
 ##### DEL `/devices/:id`
 
-This request will delete the device 
+This request will delete the device
+
+###### result
+
+    {
+      "stat": "OK"
+    }
