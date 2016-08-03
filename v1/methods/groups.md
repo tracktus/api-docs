@@ -75,3 +75,9 @@
 ##### DEL `/groups/:id`
 
 This request will delete the group
+
+###### result
+
+    {
+      "stat": "OK"
+    }
