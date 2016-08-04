@@ -14,6 +14,7 @@ HTTP Header | Description
 ----------- | ----------------
 X-Client-Id | Your REST Client ID
 X-Client-Secret | Your REST Client Secret
+Content-Type | application/json
 
 > **Every API request must have the headers above properly set.**
 
