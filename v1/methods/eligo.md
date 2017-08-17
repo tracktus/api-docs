@@ -28,6 +28,8 @@
   `response[].quantity` | `int` | X | Quantity of items
   `response[].unitCost` | `float` | X | Cost per unit
   `response[].discountStops` | `Array<Array<int, float>>` | X | Discount steps on each item, position 0 is the step, beyond the value specified the discount should be aplied for every unit, value and position 2 is the discount
+  `response[].totalCost` | `float` | X | Total cost with discount applied
+  `response[].totalDiscount` | `float` | X | The total discount applied to the total cost
   `response[].attachmentDetailsUri` | `string` | X | The detailed billing PDF URI for download
   
   
@@ -61,6 +63,8 @@
   `response[].quantity` | `int` | X | Quantity of items
   `response[].unitCost` | `float` | X | Cost per unit
   `response[].discountStops` | `Array<Array<int, float>>` | X | Discount steps on each item, position 0 is the step, beyond the value specified the discount should be aplied for every unit, value and position 2 is the discount
+  `response[].totalCost` | `float` | X | Total cost with discount applied
+  `response[].totalDiscount` | `float` | X | The total discount applied to the total cost
   `response[].attachmentDetailsUri` | `string` | X | The detailed billing PDF URI for download
   
   
@@ -94,4 +98,6 @@
   `response[].quantity` | `int` | X | Quantity of items
   `response[].unitCost` | `float` | X | Cost per unit
   `response[].discountStops` | `Array<Array<int, float>>` | X | Discount steps on each item, position 0 is the step, beyond the value specified the discount should be aplied for every unit, value and position 2 is the discount
+  `response[].totalCost` | `float` | X | Total cost with discount applied
+  `response[].totalDiscount` | `float` | X | The total discount applied to the total cost
   `response[].attachmentDetailsUri` | `string` | X | The detailed billing PDF URI for download
