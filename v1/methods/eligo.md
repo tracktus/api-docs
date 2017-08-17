@@ -1,5 +1,7 @@
 ##### GET `/eligo/billing/monitoring/all`
 
+Get all contracts from monitoring with their current cost
+
     {
       "stat": "OK",
       "response": [
@@ -38,6 +40,8 @@
   
 ##### GET `/eligo/billing/software/all`
 
+Get all contracts from software with their current cost
+
     {
       "stat": "OK",
       "response": [
@@ -75,6 +79,8 @@
   > **Pagination** - It will list all contracts per type without pagination.  
 
 ##### GET `/eligo/billing/m2m/all`
+
+Get all contracts from m2m with their current cost
 
     {
       "stat": "OK",
