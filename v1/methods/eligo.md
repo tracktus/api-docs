@@ -1,5 +1,3 @@
-> **Pagination** - It wont paginate it will list all contracts per type.
-
 ##### GET `/eligo/billing/monitoring`
 
     {
@@ -34,6 +32,9 @@
   `response[].totalDiscount` | `float` | X | The total discount applied to the total cost
   `response[].attachmentDetailsUri` | `string` | X | The detailed billing PDF URI for download
   
+###### notes
+
+  > **Pagination** - It will list all contracts per type without pagination.  
   
 ##### GET `/eligo/billing/software`
 
@@ -68,8 +69,11 @@
   `response[].totalCost` | `float` | X | Total cost with discount applied
   `response[].totalDiscount` | `float` | X | The total discount applied to the total cost
   `response[].attachmentDetailsUri` | `string` | X | The detailed billing PDF URI for download
-  
-  
+
+###### notes
+
+  > **Pagination** - It will list all contracts per type without pagination.  
+
 ##### GET `/eligo/billing/m2m`
 
     {
@@ -103,3 +107,8 @@
   `response[].totalCost` | `float` | X | Total cost with discount applied
   `response[].totalDiscount` | `float` | X | The total discount applied to the total cost
   `response[].attachmentDetailsUri` | `string` | X | The detailed billing PDF URI for download
+ 
+ ###### notes
+
+  > **Pagination** - It will list all contracts per type without pagination.
+
