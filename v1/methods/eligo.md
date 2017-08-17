@@ -1,3 +1,5 @@
+> **Pagination** - It wont paginate it will list all contracts per type.
+
 ##### GET `/eligo/billing/monitoring`
 
     {
