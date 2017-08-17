@@ -1,4 +1,4 @@
-##### GET `/eligo/billing/monitoring`
+##### GET `/eligo/billing/monitoring/all`
 
     {
       "stat": "OK",
@@ -36,7 +36,7 @@
 
   > **Pagination** - It will list all contracts per type without pagination.  
   
-##### GET `/eligo/billing/software`
+##### GET `/eligo/billing/software/all`
 
     {
       "stat": "OK",
@@ -74,7 +74,7 @@
 
   > **Pagination** - It will list all contracts per type without pagination.  
 
-##### GET `/eligo/billing/m2m`
+##### GET `/eligo/billing/m2m/all`
 
     {
       "stat": "OK",
