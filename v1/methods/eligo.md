@@ -83,7 +83,7 @@
           ],
           "totalCost": 2420.0,
           "totalDiscount": 640.0,
-          "attachmentDetailsUri": "http://nat.frota.online/fatura/fatura-sistema.php?id=118c735f"
+          "attachmentDetailsUri": "http://nat.frota.online/fatura/fatura-simcards.php?id=118c735f"
         },
         ...
       ]
